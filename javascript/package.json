@@ -1,0 +1,6 @@
+{
+  "name": "Conway",
+  "dependencies": {
+    "6to5": "^3.3.2"
+  }
+}

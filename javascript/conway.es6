@@ -66,7 +66,6 @@ class Game {
   }
 }
 
-
 class Cell {
   nextGeneration(neighbours) {
 
@@ -136,31 +135,3 @@ class DeadCell extends Cell {
     return '_';
   }
 }
-
-var game = new Game(6, 6, 0.3);
-console.log(game.toString());
-console.log();
-console.log();
-console.log();
-game.next();
-console.log(game.toString());
-console.log();
-console.log();
-console.log();
-game.next();
-console.log(game.toString());
-console.log();
-console.log();
-console.log();
-game.next();
-console.log(game.toString());
-console.log();
-console.log();
-console.log();
-game.next();
-console.log(game.toString());
-console.log();
-console.log();
-console.log();
-game.next();
-console.log(game.toString());
